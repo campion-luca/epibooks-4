@@ -14,6 +14,7 @@ const AddComment = () => {
   }
 
   // ??????????
+  // DEVI USARE IL USE EFFECT CHE SI VERIFICHI QUANDO C'E' UN CAMBIO DI STATO..
   componentDidUpdate(prevProps) {
     if (prevProps.asin !== this.props.asin) {
       this.setState({
